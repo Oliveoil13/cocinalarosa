@@ -24,13 +24,12 @@ if (day===1){
     document.getElementById("priceofdish").innerHTML = "$11.99";
     document.getElementById("descriptionofdish").innerHTML = "Pollo o bistec, servidas con arroz, salsa, y pico de gallo";
     document.getElementById("secondimg").style.backgroundImage = "url(images/image2.jpeg)";
-    document.getElementById("nameofdish2").innerHTML = "Bistec Asado";
-    document.getElementById("priceofdish2").innerHTML = "$11.99";
-    document.getElementById("descriptionofdish2").innerHTML = "Bistec, servido con, arroz, frijoles, pico de gallo, y salsa";
+    document.getElementById("seconditem").style.display = "none";
+    
 
 }else if (day===4){
     document.getElementById("firstimg").style.backgroundImage = "url(images/image9.jpeg)";
-    document.getElementById("nameofdish").innerHTML = "Flautas de Frijoles";
+    document.getElementById("nameofdish").innerHTML = "Tacos de la Mosca";
     document.getElementById("priceofdish").innerHTML = "$9.99";
     document.getElementById("descriptionofdish").innerHTML = "4 Flautas, rellenas de frijoles, servidos con repollo, crema, y salsa, acompañados con salchicha, y jamón";
     document.getElementById("seconditem").style.display = "none";
